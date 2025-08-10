@@ -1,3 +1,21 @@
+.arrow-up-right {
+    color: Silver;
+    fontsize: 0.3rem;
+    transform: rotate(-45deg);
+}
+
+.arrow {
+   color: Silver;
+   font-size: 2rem; /* Adjust the pixel value as needed */
+   transform: rotate(-45deg);
+}
+
+
+.top-right {
+  border-color: transparent black transparent transparent; /* Arrowhead color */
+  transform: rotate(-45deg); /* Rotate for top-right direction */
+}
+
 .collapsible {
   background-color: #777;
   color: white;
@@ -42,42 +60,46 @@
   text-align: left;
 }
 
+
+
 body {
   /* background-color: linen; */
   background-color: #FBE3E8;
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  padding-top: 10px;
+  padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
 footer {
   color: orange;
-  font-size: 1.5rem;
   font-style: normal;
-  padding-top: 50px;
+  position: absolute;
+  margin-bottom: 10px;
+  width: 100%;
   text-align: center;
 }
 
 h1 {
   color: silver;
   /* Avocado is #568203*/
-  font-weight: 300;
+  font-weight: 150;
   font-style: normal;
   font-size: 2.5rem;
   margin-top: 20px;
-  margin-left: 85px;
+  margin-left: 25px;
 }
 
 h2 {
-  color: Brown;
+  color: #393939;
+  /* Avocado is #568203*/
+  font-style: normal;
+  font-size: 1.5rem;
 }
 
 h3 {
-  color: Gray;
-  font-weight: 300;
+  color: #8E8E90;
   font-style: normal;
   font-size: 1rem;
   text-align: left;

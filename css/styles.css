@@ -67,9 +67,8 @@ body {
   background-color: #FBE3E8;
   font-weight: 500;
   font-style: normal;
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 40px;
+  margin: 0;
 }
 
 footer {
@@ -92,21 +91,71 @@ h1 {
 }
 
 h2 {
-  color: #393939;
+  color: #EB5EA0;
   /* Avocado is #568203*/
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-  color: #8E8E90;
-  font-style: normal;
-  font-size: 1rem;
+  color: gray;
+  font-style: bold;
+  font-size: 1.5rem;
   text-align: left;
-  padding-top: 10px;
+  padding-left: 10px;
+}
+
+h4 {
+  color: gray;
+  font-style: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 10px;
 }
 
 p {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1.5;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Tablet adjustments */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+}
+h4 {
+ font-size: 1.1rem;
+}
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

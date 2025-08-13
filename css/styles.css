@@ -36,6 +36,7 @@
 .highlight1 {
   color: #DE3163;
   font-weight: bold;
+  padding: 20px;
 }
 
 .libre-baskerville-bold {
@@ -52,15 +53,19 @@
   margin-left: 5px;
 }
 
-.subsection {
+.ending {
   color: #DE3163;
   font-weight: bold;
-  font-size: 1rem;
-  margin-top: 15px;
-  text-align: left;
+  font-size: 1.2rem;
+  margin: 18px;
 }
 
-
+.verse{
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9em;
+    font-style: italic;
+    margin: 20px;
+}
 
 body {
   /* background-color: linen; */
@@ -109,7 +114,7 @@ h4 {
   color: gray;
   font-style: bold;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
   padding-left: 10px;
 }
 
@@ -120,6 +125,7 @@ p {
 }
 
 pre {
+  font-style: normal;
   white-space: pre-wrap;
   word-wrap: break-word;
 }

@@ -83,6 +83,29 @@
     margin: 20px;
 }
 
+/* Verse Display Styling */
+.bibleverse {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #DE3163;
+    margin-top: 15px;
+}
+
+
+
+/* Container Styling */
+.container {
+    margin-top: 50px; /* Space from the top of the page */
+    background-color: #ffe4e1;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; /* Center the container */
+}
+
 body {
   /* background-color: linen; */
   background-color: #FBE3E8;
@@ -100,6 +123,7 @@ footer {
   width: 100%;
   text-align: center;
 }
+
 
 h1 {
   color: silver;
@@ -179,15 +203,17 @@ button {
   cursor: pointer;
   border: none;
 /*  background-color: #0077cc; */
-  background-color: #DE3163;
+/*  background-color: #DE3163; */
+  background-color: #b39ddb;
   color: white;
   margin-left: 20px;
 /*  margin: 0 auto;          /* centers block-level elements */
 }
 
 button:hover {
-  background-color: gold;
+  background-color: #D3D3D3;
 }
+
 
 /* Mobile adjustments */
 @media (max-width: 480px) {

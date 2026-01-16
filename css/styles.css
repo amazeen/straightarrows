@@ -1,6 +1,6 @@
 .arrow-up-right {
     color: Silver;
-    fontsize: 0.3rem;
+    font-size: 0.3rem;
     transform: rotate(-45deg);
 }
 
@@ -214,7 +214,17 @@ button:hover {
   background-color: #D3D3D3;
 }
 
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
 
+    background-color: #4CAF50; /* green button */
+    /* background-color: #9FE2AA; /* soft sage green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
 /* Mobile adjustments */
 @media (max-width: 480px) {
   body {
